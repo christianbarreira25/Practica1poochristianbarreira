@@ -1,0 +1,38 @@
+
+[
+    {
+        "nodo_id": "!cba91234",
+        "latitud": 37.3826,
+        "longitud": -5.9963,
+        "altitud": 21.7,
+        "timestamp": "2025-10-18T09:42:10"
+    },
+    {
+        "nodo_id": "!cba945fa",
+        "latitud": 40.4169,
+        "longitud": -3.7035,
+        "altitud": 668.2,
+        "timestamp": "2025-10-18T09:45:33"
+    },
+    {
+        "nodo_id": "!cba91234",
+        "latitud": 38.3452,
+        "longitud": -0.4810,
+        "altitud": 7.5,
+        "timestamp": "2025-10-18T09:47:50"
+    },
+    {
+        "nodo_id": "!cba9ab77",
+        "latitud": 39.8628,
+        "longitud": -4.0273,
+        "altitud": 515.0,
+        "timestamp": "2025-10-18T09:49:25"
+    },
+    {
+        "nodo_id": "!cba945fa",
+        "latitud": 40.4170,
+        "longitud": -3.7029,
+        "altitud": 667.9,
+        "timestamp": "2025-10-18T09:50:58"
+    }
+]

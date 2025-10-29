@@ -1,0 +1,32 @@
+[
+    {
+        "origen": "!cba91234",
+        "destino": "broadcast",
+        "mensaje": "Mensaje de prueba desde el portátil de Christian",
+        "timestamp": "2025-10-18T09:40:00"
+    },
+    {
+        "origen": "!cba945fa",
+        "destino": "!cba91234",
+        "mensaje": "Recibido correctamente, el enlace MQTT está estable.",
+        "timestamp": "2025-10-18T09:40:11"
+    },
+    {
+        "origen": "!cba9ab77",
+        "destino": "broadcast",
+        "mensaje": "Nodo Toledo operativo. Malla confirmada.",
+        "timestamp": "2025-10-18T09:41:03"
+    },
+    {
+        "origen": "!cba91234",
+        "destino": "!cba945fa",
+        "mensaje": "Probando envío cifrado AES CTR.",
+        "timestamp": "2025-10-18T09:41:42"
+    },
+    {
+        "origen": "sistema",
+        "destino": "broadcast",
+        "mensaje": "Inicio de registro de mensajes persistentes en JSON.",
+        "timestamp": "2025-10-18T00:00:00"
+    }
+]

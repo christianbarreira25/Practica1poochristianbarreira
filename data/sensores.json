@@ -1,0 +1,44 @@
+[
+    {
+        "nodo": "sensor_sevilla",
+        "temperatura": 25.6,
+        "humedad": 34.1,
+        "presion": 1015.4,
+        "timestamp": "2025-10-18T09:43:05"
+    },
+    {
+        "nodo": "sensor_madrid",
+        "temperatura": 21.9,
+        "humedad": 39.8,
+        "presion": 1012.7,
+        "timestamp": "2025-10-18T09:44:32"
+    },
+    {
+        "nodo": "sensor_alicante",
+        "temperatura": 23.8,
+        "humedad": 45.0,
+        "presion": 1013.9,
+        "timestamp": "2025-10-18T09:46:00"
+    },
+    {
+        "nodo": "sensor_toledo",
+        "temperatura": 22.7,
+        "humedad": 42.5,
+        "presion": 1012.5,
+        "timestamp": "2025-10-18T09:47:25"
+    },
+    {
+        "nodo": "sensor_madrid",
+        "temperatura": 22.1,
+        "humedad": 38.3,
+        "presion": 1012.9,
+        "timestamp": "2025-10-18T09:48:45"
+    },
+    {
+        "nodo": "sensor_sevilla",
+        "temperatura": 26.0,
+        "humedad": 33.9,
+        "presion": 1015.1,
+        "timestamp": "2025-10-18T09:50:00"
+    }
+]
