@@ -48,7 +48,13 @@ class Interfaz:
 
             elif opcion == "4":
                 print("Esperando mensajes... Presiona Ctrl+C para salir")
-                
+                try:
+                    sensores = ComunicadorSensores()  # Crear cliente y conectar al broker de sensores
+                    print("Esperando mensajes... Presiona Ctrl+C para volver al menú.\n")
+                    sensores.client.loop_forever()    # Mantener la escucha activa
+                except KeyboardInterrupt:
+                    print("\nSaliendo del modo escucha de sensores...")
+                    sensores.client.disconnect()
 
             elif opcion == "5":
                 os.system("cls" if os.name == "nt" else "clear")

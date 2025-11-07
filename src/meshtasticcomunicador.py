@@ -76,6 +76,9 @@ class MeshtasticClass:
             self.send_message(BROADCAST_NUM, self.message_text)
             time.sleep(4)
 
+    def registrar_mensaje(self, origen, nodo, mensaje):
+        print(f"[{origen}] Mensaje recibido de {nodo}: {mensaje}")
+
         
     def set_topic(self):
         if self.debug: print("set_topic")
