@@ -1,0 +1,17 @@
+### GENERACIDAD
+
+
+
+from gestor_payload import GestorPayload
+
+# Ejemplo con string
+payload_str = GestorPayload[str]("Mensaje de prueba")
+payload_str.mostrar_payload()
+payload_str.payload = "Nuevo mensaje"
+payload_str.mostrar_payload()
+
+# Ejemplo con diccionario
+payload_dict = GestorPayload[dict]({"sensor": "temperatura", "valor": 25})
+payload_dict.mostrar_payload()
+payload_dict.payload = {"sensor": "humedad", "valor": 60}
+payload_dict.mostrar_payload()

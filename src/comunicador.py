@@ -69,6 +69,7 @@ class Comunicador(BaseComunicador, SeguridadMixin):
         self.client.on_disconnect = self.on_disconnect
         self.client.on_message = self.on_message
 
+    @property
     def info_nodo(self):
     # Reenvía la llamada al objeto MeshtasticClass
         return self.meshtastic.info_nodo()
@@ -80,7 +81,8 @@ class Comunicador(BaseComunicador, SeguridadMixin):
         self.subscribe_topic = self.root_topic + self.channel + "/#"
         self.publish_topic = self.root_topic + self.channel + "/" + self.node_name
 
-    def xor_hash(self, data):
+    @staticmethod
+    def xor_hash(data):
         result = 0
         for char in data:
             result ^= char
