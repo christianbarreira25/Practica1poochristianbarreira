@@ -9,9 +9,20 @@ from cryptography.hazmat.backends import default_backend
 import base64
 import re
 from meshtasticcomunicador import MeshtasticClass
+from basecomunicador import BaseComunicador
+
+class SeguridadMixin:  ##Uso de mixin para herencia múltiple
+
+    def encryptData(self, data: bytes) -> bytes:
+        return data  # placeholder mínimo obligatorio
+
+    def decryptData(self, data: bytes) -> bytes:
+        return data  # placeholder mínimo obligatorio
 
 
-class Comunicador:
+
+
+class Comunicador(BaseComunicador, SeguridadMixin):
     def __init__(self, dispositivo):
         self.dispositivo = dispositivo
         self.meshtastic = MeshtasticClass()
